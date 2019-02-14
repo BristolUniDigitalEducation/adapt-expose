@@ -5,7 +5,7 @@
             {{#each _items}}
             <div class="expose-item nth-child-{{@index}}">
                 <div class="expose-item-inner">
-                    <button class="expose-item-button"></button>
+                    <button class="expose-item-button" title="{{#if front}} {{{a11y_text front}}} {{else}} ? {{/if}}"></button>
                     <div class="expose-item-cover">
                         <div class="back"></div>
                         <div class="front"></div>
